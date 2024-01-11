@@ -31,7 +31,7 @@
         }
 
         .main-content {
-            max-width: 800px;
+            max-width: 1000px; /* Expanded width */
             margin: 20px auto;
             padding: 20px;
             background-color: #fff;
@@ -69,6 +69,7 @@
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
+            margin-bottom: 20px;
         }
 
         .currency-list li {
@@ -78,6 +79,26 @@
             color: #ecf0f1;
             padding: 8px 15px;
             border-radius: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #3498db;
+            color: #ecf0f1;
         }
 
         a {
@@ -110,26 +131,54 @@
 
     <section class="main-content">
         <div class="description">
-            <p>Support LichessHeart❤️ and contribute to our cause. Your donations help us make a positive impact on communities.</p>
+            <p>Support LichessHeart❤️.and contribute to our cause. Your donations help us make a positive impact on communities.</p>
         </div>
 
         <div class="qr-code">
             <img src="https://i.imgur.com/yKnYESd.jpg" alt="QR Code for Donation">
         </div>
 
-        <p><strong>Description:</strong> Support LichessHeart❤️, All the contribute monsy will directly go to the NGO organizations . To our cause. Your donations help us make a positive impact on communities.</p>
+        <p><strong>Description:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget purus vel dolor fermentum luctus. Suspendisse potenti.</p>
+
         <h2>Accepted Currencies:</h2>
         <ul class="currency-list">
             <li>$</li>
             <li>¢</li>
             <li>¥</li>
             <li>£</li>
-            <li>€</li>
-            <li>₱</li>
             <li>₹</li>
-            <li>More Currencies Coming Soon!</li>
-            <!-- Add more currencies as needed -->
+            <li>₱</li>
+            <li>€</li>
         </ul>
+
+        <h2>Donation Ranges:</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Payment System</th>
+                    <th>Minimum Amount</th>
+                    <th>Maximum Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Google Pay (GPay)</td>
+                    <td>$50</td>
+                    <td>$100,000</td>
+                </tr>
+                <tr>
+                    <td>PhonePe</td>
+                    <td>$50</td>
+                    <td>$100,000</td>
+                </tr>
+                <tr>
+                    <td>PayPal</td>
+                    <td>$50</td>
+                    <td>$100,000</td>
+                </tr>
+                <!-- Add more payment systems as needed -->
+            </tbody>
+        </table>
     </section>
 
     <footer>
