@@ -9,7 +9,7 @@ Welcome to the LichessHeart repository! This project aims to empower communities
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Contributing](#contributing)
+- [Contributing](https://github.com/ScriptDeveloper2004/lichessheart)
 - [License](#license)
 
 ## Features
